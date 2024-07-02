@@ -1,0 +1,23 @@
+{
+  "name": "tobono/wordpress-eloquent",
+  "type": "package",
+  "license": "MIT",
+  "description": "Laravel Eloquent For WordPress",
+  "authors": [
+    {
+      "name": "Reza Bahreynipour",
+      "email": "bahreynipour@gmail.com"
+    }
+  ],
+  "keywords": [],
+  "autoload": {
+    "psr-4": {
+      "Tobono\\WordPressEloquent\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/database": "^11.0",
+    "illuminate/events": "^11.0"
+  }
+}
